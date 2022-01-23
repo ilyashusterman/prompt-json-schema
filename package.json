@@ -1,0 +1,36 @@
+{
+  "name": "prompt-json-schema",
+  "version": "1.0.0",
+  "description": "Sync Prompt for json schema",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run smoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilyashusterman/prompt-json-schema.git"
+  },
+  "keywords": [
+    "prompt",
+    "json",
+    "schema"
+  ],
+  "author": "ilya shusterman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyashusterman/prompt-json-schema/issues"
+  },
+  "homepage": "https://github.com/ilyashusterman/prompt-json-schema#readme",
+  "dependencies": {
+    "ajv": "^8.9.0",
+    "chalk": "^4.1.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "pkg": "^5.5.1"
+  }
+}
