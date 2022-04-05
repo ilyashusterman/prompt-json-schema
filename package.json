@@ -1,6 +1,6 @@
 {
   "name": "prompt-json-schema",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sync Prompt for json schema",
   "main": "index.js",
   "directories": {
