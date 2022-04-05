@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "npm run smoke"
+    "test": "node lib/test-sanity-prompt.js",
+    "build": "pkg package.json"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,19 @@
   "bugs": {
     "url": "https://github.com/ilyashusterman/prompt-json-schema/issues"
   },
+  "bin": "./prompt-json-schema.js",
   "homepage": "https://github.com/ilyashusterman/prompt-json-schema#readme",
   "dependencies": {
     "ajv": "^8.9.0",
     "chalk": "^4.1.2",
     "prompt-sync": "^4.2.0"
+  },
+  "pkg": {
+    "scripts": "**/*.js",
+    "targets": [
+      "node14-linux-arm64"
+    ],
+    "outputPath": "./dist"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
