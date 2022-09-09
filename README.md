@@ -2,9 +2,8 @@
 
 # prompt json schema
 
-[Contributing](https://github.com/ilyashusterman/prompt-json-schema/blob/master/README.md) |
+[Contributing](https://github.com/ilyashusterman/prompt-json-schema/blob/master/README.md)
 
-Generated using [prompt-json-schema-cli](https://www.npmjs.com/package/prompt-json-schema):
 [![N|prompt-json-schema](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/logo.png)](https://www.npmjs.com/package/prompt-json-schema)
 
 //TODO fix shell usage
