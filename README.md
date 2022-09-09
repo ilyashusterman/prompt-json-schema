@@ -4,7 +4,8 @@
 
 [Contributing](https://github.com/ilyashusterman/prompt-json-schema/blob/master/README.md) |
 
-Generated using [prompt-json-schema-cli](https://www.npmjs.com/package/prompt-json-schema-cli):
+Generated using [prompt-json-schema-cli](https://www.npmjs.com/package/prompt-json-schema):
+[![N|prompt-json-schema](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/logo.png)](https://www.npmjs.com/package/prompt-json-schema)
 
 //TODO fix shell usage
 
@@ -77,3 +78,7 @@ numbers, objects, strings, etc. prompt-json-schema modular methods are great for
 - CLI
 - Manipulating & testing validations on json schema's data structures
 - Creating composite data objects
+
+## demo
+
+[![N|demo-terminal](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/terminal_demo.png)]

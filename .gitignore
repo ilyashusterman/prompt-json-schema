@@ -4,3 +4,4 @@ node_modules
 .lh
 .history
 dist
+yarn.lock
