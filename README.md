@@ -80,4 +80,4 @@ numbers, objects, strings, etc. prompt-json-schema modular methods are great for
 
 ## demo
 
-[![N|demo-terminal](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/terminal_demo.png)]
+![N|demo-terminal](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/terminal_demo.png)

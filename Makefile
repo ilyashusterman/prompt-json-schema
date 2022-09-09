@@ -15,3 +15,7 @@ endif
 .PHONY: install
 install:
 	$(VERBOSE) yarn install
+.PHONY: publish
+publish:
+	$(VERBOSE) npm login && npm publish
+
