@@ -6,13 +6,9 @@
 
 [![N|prompt-json-schema](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/logo.png)](https://www.npmjs.com/package/prompt-json-schema)
 
-//TODO fix shell usage
+## demo
 
-```shell
-$ npm run build
-$ chmod 777 ./dist/prompt-json-schema.js
-$ ./dist/prompt-json-schema.js
-```
+![N|demo-terminal](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/terminal_demo.png)
 
 ## Installation
 
@@ -74,6 +70,12 @@ numbers, objects, strings, etc. prompt-json-schema modular methods are great for
 - Manipulating & testing validations on json schema's data structures
 - Creating composite data objects
 
-## demo
+## fix
 
-![N|demo-terminal](https://github.com/ilyashusterman/prompt-json-schema/blob/master/docs/terminal_demo.png)
+//TODO fix shell usage
+
+```shell
+$ npm run build
+$ chmod 777 ./dist/prompt-json-schema.js
+$ ./dist/prompt-json-schema.js
+```
