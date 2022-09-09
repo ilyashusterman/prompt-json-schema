@@ -52,14 +52,10 @@ const schema = {
       description: "Tags for the product",
       type: "array",
       items: {
-        type: "number",
+        type: "string",
       },
       minItems: 1,
       uniqueItems: true,
-    },
-    warehouseLocation: {
-      description: "Coordinates of the warehouse where the product is located.",
-      $ref: "https://example.com/geographical-location.schema.json",
     },
   },
   required: ["productId"],
