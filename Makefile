@@ -17,5 +17,5 @@ install:
 	$(VERBOSE) yarn install
 .PHONY: publish
 publish:
-	$(VERBOSE) npm login && npm publish
+	$(VERBOSE) npm publish
 
