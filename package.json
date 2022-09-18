@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "node lib/test-sanity-prompt.js",
-    "build": "pkg package.json"
+    "build": "pkg package.json",
+    "package": "npm pack",
+    "minify": "npx uglifyjs --compress --mangle -- dist/json-prompt-schema.min.js",
+    "bundle": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -40,6 +43,14 @@
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "pkg": "^5.5.1"
+    "pkg": "^5.5.1",
+    "uglify-js": "^3.17.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
